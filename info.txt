@@ -1,0 +1,34 @@
+-> Python is an interpreted(quick i.e. no compilation step),
+functional and object oriented high level language.
+-> It has a simple syntax and it can be deployed fast as it contains several Fast-inbuilt libraries.
+-> Why to use Python?
+    Because it is easy to learn/use, performance is high, rapid development, dynamically types
+    i.e, we do not need to specify the data type (it will decide automatically in the run time),
+    community is huge and python can easily integrate with third party libraries i.e, CherryPy, 
+    boto etc. (A complete list can be found at pythonanywhere.com/batteries_included).
+
+-> Instead of {} for a block of code in other programming languages, we use indentation.
+-> Indentation is nothing but leaving a specific amount of spaces or a tab space while
+    grouping a blocl of code.
+    For example:
+        x = int(input("Enter min number"))
+        y = int(input("Enter max number"))
+        i = x
+        if i%2 == 0: i=x+1
+        while i<=y:
+            print(i) #Indentation
+            i += 2  #Indentation
+    * General convention is to use 4 spaces. The number of spaces should be same throughout the
+    project.
+
+-> When we work in real time applications we also need to hold on to multiple values or a sequence
+    of values at a time which could be coming from a database table or from a restful
+    webservice call or from some other source.
+    For that, we use collections: List, Set and Dictionary.
+    List:
+    The list can store any number of values or objects dynamically and it maintains their order.
+    Set: 
+    It doesn't allow duplicates. The set and list have a lot of methods to deal with the CRUD of
+    the elements.
+    Dictionary:
+    It's a map. It's used to store keys and values and has separate methods for that.
