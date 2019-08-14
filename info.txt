@@ -36,3 +36,5 @@ functional and object oriented high level language.
 -> Tuple Sequence Type is just like a list, but it can never be modified. We create a tuple 
     using the normal parenthesis. We can not use the methods like:
     append(), extend(), insert(), remove() and clear()
+
+-> Set Sequence Type does not allow duplicates. And it does not guarantee any order.
