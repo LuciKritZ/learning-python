@@ -38,3 +38,13 @@ functional and object oriented high level language.
     append(), extend(), insert(), remove() and clear()
 
 -> Set Sequence Type does not allow duplicates. And it does not guarantee any order.
+-> In python, to find the exponents, we use ** operator. It means that if we write a**b, it will
+    calculate a^b.
+    // is also a special operator which is also known as integer division operator, also known as
+    floor division. It performs the division and returns the integer quotient.
+
+-> FOR SWAPPING TWO VARIABLE WITHOUT USING ANY VARIABLE IN PYTHON:
+    a,b = 10, 5
+    print(a,b)
+    a,b = b,a
+    print(a,b)
