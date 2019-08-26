@@ -48,3 +48,30 @@ functional and object oriented high level language.
     print(a,b)
     a,b = b,a
     print(a,b)
+
+-> Flow Control and Statements:
+1. Control Statements: if.
+2. Conditional Statements: if ... else, if ... elif ... else (Else if Ladder).
+3. Looping: while, for
+4. Transfer: It allows us to transfer the control of our program from one place to another starting
+    with
+    -> break
+    -> continue
+    -> pass
+    -> return.
+
+IF: if(conditions: statements)
+IF ELSE:
+    if(conditions: statements)
+    else: statements
+
+WHILE Statement:
+while condition:
+    statements
+
+A for loop is typically used to iterate over the elements of a sequence like: string, list, tuple, set,
+    range, etc.
+    SYNTAX:
+    for var in sequence:
+        statements
+    This will go on until the last element is reached.
