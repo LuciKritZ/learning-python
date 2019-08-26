@@ -75,3 +75,10 @@ A for loop is typically used to iterate over the elements of a sequence like: st
     for var in sequence:
         statements
     This will go on until the last element is reached.
+
+
+-> The command line arguments are those arguments that are passed whenever a python program is run.
+SYNTAX: python myProgram.py 123 abc xy
+We can pass anything i.e, file location or a connection URL can be passed as an argument.
+All these values are passed in our python program through a list called argv. And, this list is
+inside the sys module. So, to access the elements, we can use sys.argv.
