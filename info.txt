@@ -82,3 +82,17 @@ SYNTAX: python myProgram.py 123 abc xy
 We can pass anything i.e, file location or a connection URL can be passed as an argument.
 All these values are passed in our python program through a list called argv. And, this list is
 inside the sys module. So, to access the elements, we can use sys.argv.
+
+A function is a group of statments which perform a particular task.
+-> We can declare user defined functions to execute a particular task according to the user definition.
+-> processData(data)
+ADVANTAGES:
+    1. Reusability: Once we define a functions and statements inside it, then those statements need not be
+    be written anywhere in the program again. We can use function to perform a task again and again.
+    2. Modularity: We can use multiple functions instead of writing all the code at once, which for us as
+    a developer, will keep the code modular.
+    3. Maintenance: We can easily find the error/bug at a particular function in the program.
+
+RECURSION: It's the process of function calling itself. Example: Finding out the factorial of a given number.
+The very first step of writing a recursive function is to define an end condition in case of factorial.
+Recursion will not be a good option for everything. Use caution while applying the recursion.
