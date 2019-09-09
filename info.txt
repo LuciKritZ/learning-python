@@ -119,3 +119,8 @@ the additional logic or processing on it.
 Generators are the function that returns the sequence of values back. Generator function is returned
 just like any other function, but it uses a yield statment. So, we will store each value in the sequence
 and at the end of the sequence generation, we will return the entire sequence back, similar to range.
+
+List Comprehensions gives us an easy to use syntax to create one list out of another while applying some
+logic and conditions.
+Syntax: (lambda function or lambda expression )I = [expression for item in iterable if condition]
+So, list comprehensions are a shortcut to map and reduced functions.
