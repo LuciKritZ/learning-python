@@ -96,3 +96,26 @@ ADVANTAGES:
 RECURSION: It's the process of function calling itself. Example: Finding out the factorial of a given number.
 The very first step of writing a recursive function is to define an end condition in case of factorial.
 Recursion will not be a good option for everything. Use caution while applying the recursion.
+
+LAMBDAS:
+A lambda is an anonymous function that will not have any name when we define a function in python.
+From:
+def square(x):
+    return x*x
+To:
+lambda x:x*x
+Syntax: lambda argument_list: expression
+Lambda will always return a function back.
+To call a lambda function:
+    f = lambda x*x*x
+    restult = f(10)
+Lambda functions are really helpful when we use them inside the other functions.
+
+Decorators itself says that it's a function that performs additional logic on a given function.
+It also returns the function back as a result. So, it takes a function and returns a function.
+Inside the Decorator, there's a logic that will invoke the input function, take the result and perform
+the additional logic or processing on it.
+
+Generators are the function that returns the sequence of values back. Generator function is returned
+just like any other function, but it uses a yield statment. So, we will store each value in the sequence
+and at the end of the sequence generation, we will return the entire sequence back, similar to range.
