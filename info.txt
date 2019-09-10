@@ -124,3 +124,25 @@ List Comprehensions gives us an easy to use syntax to create one list out of ano
 logic and conditions.
 Syntax: (lambda function or lambda expression )I = [expression for item in iterable if condition]
 So, list comprehensions are a shortcut to map and reduced functions.
+
+Three 3 important thing that an object has are:
+1. Identity/name
+2. Properties/Variables
+3. Functionality/Behavior
+The objects communicate to each other using their functionality which is nothing but methods or
+functions in programming languages. And when they do the communication, they exchange some information
+via property or variables.
+
+The 4 principles of Object Oriented Programming are:
+1. Encapsulation
+2. Inheritance
+3. Abstraction
+4. Polymorphism
+
+Classes and Objects: Classes allow us to create our own data types that is user defined data types.
+They act as a blueprint for our objects.
+Example:
+class Product:
+    id name price
+Now we can create any number of objects for this class and all of them will have the same properties,
+but with different values.

@@ -1,16 +1,12 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/node',
-1 verbose cli   '/usr/bin/npm',
-1 verbose cli   'run',
-1 verbose cli   'servecd',
-1 verbose cli   '/home/cygnet/Documents/Research/Python/python' ]
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'serve' ]
 2 info using npm@3.5.2
 3 info using node@v8.10.0
 4 verbose config Skipping project config: /home/cygnet/.npmrc. (matches userconfig)
 5 verbose stack Error: ENOENT: no such file or directory, open '/home/cygnet/package.json'
 6 verbose cwd /home/cygnet/Documents/Research/Python/python
 7 error Linux 5.0.0-27-generic
-8 error argv "/usr/bin/node" "/usr/bin/npm" "run" "servecd" "/home/cygnet/Documents/Research/Python/python"
+8 error argv "/usr/bin/node" "/usr/bin/npm" "run" "serve"
 9 error node v8.10.0
 10 error npm  v3.5.2
 11 error path /home/cygnet/package.json
