@@ -152,3 +152,17 @@ To understand this, we can use the capsule diagram: The capsule is the class. Th
 and variables and the functions are functionality/methods that can access the data.
 Another example of encapsulation can be writing the data and the methods into one single class/unit.
 There's a concept called name mangling where we can directly use the private variables.
+
+Inheritance is the process of defining a new object with the help of an existing object.
+Eg: New version of Android will inherit a lot of functionalities or features from the previous version
+of Android. At the same time, new version of Android can update or upgrade the existing functionalites.
+Therefore, the two key principles are:
+1. Accessing Existing Objects Functionality
+2. If required, Updating Existing Objects Functionality
+
+The two other important things we will talk about here will be:
+1. Re-usability
+2. IS-A Relation
+
+When our child classes inherit from the parent classes, sometimes they want to use the exact same method
+names, but with different functionalities. This can be done by method overriding.
