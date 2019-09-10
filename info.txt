@@ -166,3 +166,24 @@ The two other important things we will talk about here will be:
 
 When our child classes inherit from the parent classes, sometimes they want to use the exact same method
 names, but with different functionalities. This can be done by method overriding.
+
+Polymorphism: Poly = MULTI and morphic = SHAPES
+SHAPES means behaviour in the context of programming.]
+In python, there are 4 ways in which we can implement polymorphism:
+1. Duck Typing
+2. Using Duck Typing to do Dependency Injection
+3. + operator where it is overloaded to perform multiple operations
+4. Method overriding (Runtime Polymorphism)
+Duck Typing is not really a feature, it comes for free, if a programming language is dynamic. 
+Eg: Duck and Human both can have a method call talk.
+def callTalk(obj)
+obj.talk
+Here, if the we pass the Duck object to the method, the duck method will be invoked and similarly,
+for invoking the human talk method, we will have to pass the object of the human.
+
+The + operator in the python is overloaded to perform the multiple things so we can call it polymorphic.
+Because, if we use + between two numbers, it will add them. If we use them between a string and a variable,
+it will concatenate/append it. If we use them between two lists, then it will come out with a single list
+using those two lists.
+
+Method Overriding is a way to achieve runtime polymorphism.
