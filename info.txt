@@ -146,3 +146,9 @@ class Product:
     id name price
 Now we can create any number of objects for this class and all of them will have the same properties,
 but with different values.
+
+Encapsulation: It is protecting the properties and functionalities of an object from other objects.
+To understand this, we can use the capsule diagram: The capsule is the class. The data is the properties
+and variables and the functions are functionality/methods that can access the data.
+Another example of encapsulation can be writing the data and the methods into one single class/unit.
+There's a concept called name mangling where we can directly use the private variables.
