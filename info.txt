@@ -187,3 +187,11 @@ it will concatenate/append it. If we use them between two lists, then it will co
 using those two lists.
 
 Method Overriding is a way to achieve runtime polymorphism.
+
+Using Abstract Classes and Interfaces, we can define a contract for our child classes that is if we have 
+a class called BMW, and if we define an Abstract method, it will not have any implementation, and it will
+be marked with @abstractmethod decorater. Typically one method in the abstact class is an abstract method.
+The child class should provide implementation of all the absract classes in the parent class.
+
+Interface is nothing but all the methods in the class with the abstract methods. Unlike Java, we do not 
+need extends keyword to use the interface.
